@@ -1,0 +1,53 @@
+# --- Entornos Virtuales ---
+.venv/
+venv/
+env/
+ENV/
+pyenv/
+
+# --- Caché y Compilación de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribución y Paquetes ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Archivos de Configuración Local y Secretos ---
+.env
+.secrets
+secrets.json
+
+# --- Herramientas de Pruebas y Cobertura ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
